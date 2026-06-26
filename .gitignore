@@ -1,0 +1,31 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+*.dll
+*.lib
+*.dylib
+*.dSYM
+build/
+
+# Lean 4 build artifacts
+.lake/
+*.olean
+*.ilean
+*.trace
+*.hash
+*.c
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

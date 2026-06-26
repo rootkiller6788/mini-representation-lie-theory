@@ -1,0 +1,27 @@
+/-
+MiniQuantumGroups — Quantum Groups package
+Aggregates all submodules.
+-/
+import MiniQuantumGroups.Core.Basic
+import MiniQuantumGroups.Core.Laws
+import MiniQuantumGroups.Core.Objects
+import MiniQuantumGroups.Morphisms.Hom
+import MiniQuantumGroups.Morphisms.Iso
+import MiniQuantumGroups.Morphisms.Equivalence
+import MiniQuantumGroups.Constructions.Products
+import MiniQuantumGroups.Constructions.Universal
+import MiniQuantumGroups.Constructions.Subobjects
+import MiniQuantumGroups.Constructions.Quotients
+import MiniQuantumGroups.Properties.Invariants
+import MiniQuantumGroups.Properties.Preservation
+import MiniQuantumGroups.Properties.ClassificationData
+import MiniQuantumGroups.Theorems.Basic
+import MiniQuantumGroups.Theorems.UniversalProperties
+import MiniQuantumGroups.Theorems.Classification
+import MiniQuantumGroups.Theorems.Main
+import MiniQuantumGroups.Examples.Standard
+import MiniQuantumGroups.Examples.Counterexamples
+import MiniQuantumGroups.Bridges.ToAlgebra
+import MiniQuantumGroups.Bridges.ToTopology
+import MiniQuantumGroups.Bridges.ToGeometry
+import MiniQuantumGroups.Bridges.ToComputation
