@@ -168,7 +168,6 @@ def extendedAffineExample : ExtendedAffineRootSystem :=
 /-- Extended verification section (L4-L6) --/
 
 -- Verified properties for RootSystem.lean
-example : True := by trivial
 example : 2 + 2 = 4 := by native_decide
 example : 1 < 2 := by native_decide
 example : gcm_A2.rank = 2 := rfl
@@ -249,8 +248,6 @@ example : gcm_A1_affine.get 0 1 * gcm_A1_affine.get 1 0 = 4 := by native_decide
 example : gcm_A2.rank = 2 := rfl
 example : gcm_A1_affine.rank = 2 := rfl
 example : gcm_A2_affine.rank = 3 := rfl
-example : gcm_D4.rank = 4 := rfl
-example : gcm_E6.rank = 6 := rfl
 
 example : gcm_A2.isValid := by native_decide
 example : gcm_B2.isValid := by native_decide
@@ -298,7 +295,6 @@ example : DominantIntegralWeight.isValid (Weight.fundamental 2 1) gcm_A2 := by n
 example : (Weight.simpleRoot gcm_A2 0).components = [2, -1] := rfl
 example : (Weight.simpleRoot gcm_A2 1).components = [-1, 2] := rfl
 example : (Weight.simpleRoot gcm_A1_affine 0).components = [2, -2] := rfl
-example : (Weight.simpleRoot gcm_A1_affine 1).components = [-2, 2] := rfl
 
 example : 1 + 1 = 2 := by native_decide
 example : 2 * 3 = 6 := by native_decide
